@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgb(82, 82, 221), rgb(1, 1, 63));
+    padding: 10px;
+    font-size: xx-large;
+
+}
+
+h1 {
+    text-align: left;
+}
