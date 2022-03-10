@@ -14,18 +14,34 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-        <h1>Search for a city:</h1>
-        <input type="text" class="search-box" placeholder="Fort Worth">
-        <button class="searchBtn">Search</button>
-        <div class="container searches">
-            <div class="row searches-past">
-
+        <h1><strong>Search for a city:</strong></h1>
+        <form>
+            <!-- city search area -->
+        <input id="searching-city" type="text" placeholder="Fort Worth">
+        <button id="new-search">Search</button>
+        </form>
+        <div id="search-history"></div>
+        <!-- past searches appear here -->
+        <div id="container searches">
+            <div id="row searches-past">
+                <ul id="list-group"></ul>
             </div>
-
         </div>
-    </div>
-    </div>
-
+        <div class="col-sm-8">
+        
+        <div id="weather-effects">
+            <h3 id="current-city"></h3>
+            <div id="temp">Temperature - </div>
+            <div id="humid">Humidity - </div>
+            <div id="wind">Wind - </div>
+            <div id="uv">UVI - </div>
+        </div>
+        <div id="5-day">
+            <h3 id="5daytop">5 Day Forecast </h3>
+            <h3 id="days"></h3>
+        </div>
+        </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="./script.js"></script>
