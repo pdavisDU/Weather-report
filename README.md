@@ -10,8 +10,8 @@
   ## Description
   This is a simple application to give the user a weather forecast and a 5 day forecast
 
-  [!](./Weather-report/Assets/weather.png)  
-  [!](./Weather-report/Assets/weather2.png)
+  ![image](./Weather-report/Assets/weather.png)  
+  ![image](./Weather-report/Assets/weather2.png)
   ## Installation
   To install run npm i
   ## Usage
