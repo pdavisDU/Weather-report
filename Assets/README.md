@@ -9,6 +9,9 @@
 
   ## Description
   This is a simple application to give the user a weather forecast and a 5 day forecast
+  [!](./Assets/weather)
+  [!](./Assets/weather2)
+  
   ## Installation
   To install run npm i
   ## Usage
