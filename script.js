@@ -173,6 +173,3 @@ var fiveDay = function(data) {
     }
     
 }
-$("#uv").addClass(function () {
-    return +UV <= 2 ? "green" : +UV <=5 ? "orange" : "red"
-});
